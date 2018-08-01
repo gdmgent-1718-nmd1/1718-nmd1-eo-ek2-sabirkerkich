@@ -15,4 +15,43 @@ img {
     max-width: 100%; /* Afbeeldingen responsive maken */
 }
 
+table {
+    background-color:hsla(193, 64%, 70%, 1);
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th {
+    width: auto;
+    background-color:hsla(193, 64%, 59%, 1);
+}
+
+td#highest {
+    font-weight: bolder;
+    text-shadow: 1px 1px hsla(0, 0%, 0%, 0.6);
+}
+
+th, td {
+    border: 1px solid black;
+    text-align: center
+}
+
+tr {
+    height: 60px;
+}
+
+thead>tr {
+    height: 50px;;
+}
+
+tr:hover {
+    background-color: hsla(193, 64%, 59%, 1);
+}
+
+table>thead>tr>th>a {
+    text-decoration-style: dotted;
+    color: inherit;
+} 
 /* Voeg jouw css hieraan toe */
