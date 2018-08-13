@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="nl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +9,112 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
     <link rel="stylesheet" href="css/pages.css">
 </head>
+
 <body>
     <h1>Digital Styleguide</h1>
+    <h2>Headers</h2>
+    <div class="Headers squares slab">
+        <p class="text text-1"> This is a header </p>
+        <p>Dosis Extra Bold 2.0em</p>
+        <p class="text text-2"> This is a subheader</p>
+        <p>Dosis Extra Bold 1.8em</p>
+        <p class="text text-3"> This is regular text</p>
+        <p>Dosis Extra Bold 1.4em</p>
+    </div>
+
+    <h2>text</h2>
+    <div class="Writing squares slab">
+        <p class="text-small">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer faucibus non mi ac tincidunt. Nunc urna turpis, malesuada sit amet velit eu, commodo pulvinar massa. Fusce sit amet libero pulvinar, ultricies nulla posuere, vehicula quam. Phasellus tristique sodales sem sodales elementum. Quisque eleifend arcu non tortor porta, ac iaculis sem condimentum. Aliquam nisi nisl, pellentesque at ullamcorper vulputate, semper sit amet risus. Vivamus dignissim ullamcorper ipsum, nec malesuada lectus vehicula non. Integer metus libero, tincidunt eget malesuada id, vulputate sit amet nibh. Integer pulvinar ligula aliquam arcu ultrices, ac laoreet ante aliquet. Nulla nisl justo, gravida eget bibendum a, molestie vitae tortor. Proin hendrerit ultrices ultricies. Aliquam erat volutpat.
+
+                Donec congue volutpat sem, at mollis odio fermentum at. Suspendisse potenti. Morbi felis odio, dapibus sed nibh ac, maximus volutpat quam. Vivamus ut egestas nibh. Cras eget ante et risus mattis facilisis non vestibulum nisi. Duis nec ipsum quis ex laoreet convallis at sed mauris. Aenean tincidunt elit scelerisque, bibendum magna ut, suscipit lorem. Suspendisse a ligula vehicula, iaculis nunc sed, facilisis odio.
+                
+                Nulla a neque neque. Curabitur fringilla, eros in gravida porttitor, dolor nibh ultricies nulla, ut consequat risus mi at neque. Cras varius vel libero a placerat. Sed hendrerit diam eget feugiat eleifend. Donec ut turpis rutrum ipsum molestie efficitur. Vestibulum et quam purus. Mauris quis venenatis magna, ac porta ligula. Nulla facilisi. Curabitur ultricies neque ac tristique aliquam. Donec a felis ac ex tempus pellentesque. Nullam dui orci, varius in feugiat a, lacinia et ex. Mauris lectus nunc, mollis a magna sed, interdum iaculis massa. Morbi viverra lectus sem, sit amet ultrices felis sollicitudin non. Donec eget dui sed ligula consequat maximus. Etiam sit amet sapien nisl. Donec commodo nisl metus, sed porta nunc tempor in.</p>
+    </div>
+
+    <h2>Colors</h2>
+    <div class="slab flexbox">
+        <div>
+            <div id="color1"></div>
+            <p class="text">#F7F7F7</p>
+            <p class="text">rgb(247, 247, 247)</p>
+            <p class="text">hsl(0, 0%, 97%)</p>
+        </div>
+        <div>
+            <div id="color2"></div>
+            <p class="text">#82CEE3</p>
+            <p class="text">rgb(130, 206, 227)</p>
+            <p class="text">hsl(193, 63%, 70%)</p>
+        </div>
+        <div>
+            <div id="color3"></div>
+            <p class="text">#E65757</p>
+            <p class="text">rgb(230, 87, 87)</p>
+            <p class="text">hsl(0, 74%, 62%)</p>
+        </div>
+        <div>
+            <div id="color4"></div>
+            <p class="text">#414141</p>
+            <p class="text">rgb(65, 65, 65)</p>
+            <p class="text"> hsl(0, 0%, 25%)</p>
+        </div>
+    </div>
+
+    <h2>Logos</h2>
+    <div class="slab flexbox">
+        <div>
+            <img src="./images/LOGO_BLUE.png" alt="Grímnir Logo" class="logo">
+            <p style="text-align: center" class="text">Logo Blue</p>
+        </div>
+        <div>
+            <img src="./images/LOGO_RED.png" alt="Grímnir Logo Text" class="logo">
+            <p style="text-align: center" class="text">Logo Red</p>
+        </div>
+    </div>
+
+
+
+    <h2>Navigation</h2>
+<div class="slab">
+    <div id="nav" class="menu">
+        <div style="flex-grow: 2"></div>
+        <div style="flex-grow: 1">
+            <img src="./images/LOGO_RED.png" alt="Logo" id="navlogo" class="navitem">
+        </div>
+        <div style="flex-grow: 1">
+            <p class="navbutton"> Activiteit </p>
+        </div>
+        <div style="flex-grow: 1">
+            <p class="navbutton text">Geschenk</p>
+        </div>
+        <div style="flex-grow: 1">
+            <p class="navbutton text">Inspiratie</p>
+        </div>
+        <div style="flex-grow: 1">
+            <p class="navbutton text">Studenten</p>
+        </div>
+        <div style="flex-grow: 1">
+        <img src="./images/WINKELMAND.png" alt="Grímnir Logo" id="winkelmand">
+    <!--<p class="navbutton text">winkelmand</p>-->
+        </div>
+        <div style="flex-grow: 1">
+                <input class="navbutton text" type="name" placeholder="Zoek op"><br>
+        </div>
+        <div style="flex-grow: 1"> </div>
+    </div>
+</div>
+
+<h2>Icons</h2>
+<div class="slab flexbox">
+    <div>
+        <img src="./images/LOGO_SOCIAL.png" alt="Grímnir Logo" class="logo">
+        <p class="text text-logo">Socialmedia</p>
+    </div>
+    <div>
+            <img src="./images/banccontact.png" alt="Grímnir Logo" class="logo">
+            <p class="text text-logo">Payment</p>
+        </div>
+</div>
+
 </body>
+
 </html>
