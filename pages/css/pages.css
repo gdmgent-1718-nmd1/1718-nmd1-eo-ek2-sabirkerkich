@@ -105,7 +105,7 @@ div#color1 {
 div#color2 {
     width: 200px;
     height: 200px;
-    background-color: #82CEE3;
+    background-color: rgba(84, 188, 217, 1);
     border: black 2px solid;
     border-radius: 100%;
 }
