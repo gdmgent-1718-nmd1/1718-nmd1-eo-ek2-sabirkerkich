@@ -99,6 +99,7 @@ div#color1 {
     height: 200px;
     background-color:#F7F7F7;
     border: black 2px solid;
+    border-radius: 100%;
 }
 
 div#color2 {
@@ -106,6 +107,7 @@ div#color2 {
     height: 200px;
     background-color: #82CEE3;
     border: black 2px solid;
+    border-radius: 100%;
 }
 
 div#color3 {
@@ -113,6 +115,7 @@ div#color3 {
     height: 200px;
     background-color: #E65757;
     border: black 2px solid;
+    border-radius: 100%;
 }
 
 div#color4 {
@@ -120,6 +123,7 @@ div#color4 {
     height: 200px;
     background-color: #414141;
     border: black 2px solid;
+    border-radius: 100%;
 }
 
 
