@@ -189,3 +189,12 @@ h1{
 h2{
     font-size: 2em;
 }
+
+
+.user{
+    background-color: rgba(84, 188, 217, 1);;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px #333 solid;
+}
