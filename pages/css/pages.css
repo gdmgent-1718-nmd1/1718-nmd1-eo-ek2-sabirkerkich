@@ -197,7 +197,13 @@ h2{
     margin: 20px 0px;
     border-radius: 10px;
     border: 1px #333 solid;
-    
 }
 
+
+div.slab2 {
+    background-color: #F7F7F7;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+}
 
